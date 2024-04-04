@@ -72,3 +72,21 @@ The absolute path to the working directory before running the command was:
 
 I got this output because `ls` is meant to list the files and folders of the provided path. Since I used `messages` as the argument, the output was the files within `messages` (en-us.txt, .. etc).
 
+This output is not an error.
+
+## 2.3) - Using `cat` with a directory as a argument
+
+Using `cat` with a directory returns the message : `cat: messages: is a directory`.
+
+![image](lr1-8.png)
+
+The absolute path to the working directory before running the command was:
+`/c/Users/noahs/lecture1` which was unchanged by the command.
+
+![image](lr1-4.png)
+
+I got this output because `cat` is meant to print the contents of a file. Since a directory was provided, that is something it cannot print, hence the message it gave.
+
+This is infact an error. It is an error because `cat` is supposed to print the contents of a provided file. Since a directory was given rather than a file, that is something `cat` cannot print which is why the error message appeared. It needs a file as an argument to properly run.
+
+
