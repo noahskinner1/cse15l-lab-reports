@@ -89,4 +89,36 @@ I got this output because `cat` is meant to print the contents of a file. Since 
 
 This is infact an error. It is an error because `cat` is supposed to print the contents of a provided file. Since a directory was given rather than a file, that is something `cat` cannot print which is why the error message appeared. It needs a file as an argument to properly run.
 
+## 3.1) - Using `cd` with a file as an argument
+
+Using `cd` with a file as an argument presents the message `bash: cd: README: Not a directory`.
+
+![image](lr1-9.png)
+
+The absolute path to the working directory before running the command was:
+`/c/Users/noahs/lecture1` which was unchanged by the command.
+
+![image](lr1-4.png)
+
+I got this output because `cd` is meant to change your working directory. Since the argument provided is a file and not a directory, it cannot switch the working directory to the file.
+
+This output is an error. The command is meant to change directory. Since `README` is not a directory, it produces an error message and does not change anything.
+
+## 3.2) - Using `ls` with a file as an argument
+
+Using `ls` with a file name as an argument simply returns the file name back to the user.
+
+![image](lr1-10.png)
+
+The absolute path to the working directory before running the command was:
+`/c/Users/noahs/lecture1` which was unchanged by the command.
+
+![image](lr1-4.png)
+
+I got this output because `ls` is meant to list the files for a given path. Since the path provided is a file, all it does is list the file name.
+
+This output is not an error. The command worked exactly as the documentation states.
+
+## 3.3) - Using `cat` with a file as the argument.
+
 
