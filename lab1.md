@@ -121,4 +121,19 @@ This output is not an error. The command worked exactly as the documentation sta
 
 ## 3.3) - Using `cat` with a file as the argument.
 
+Using `cat` with a file as an argument simply prints the contents of the file.
+
+![image](lr1-11.png)
+
+The absolute path to the working directory before running the command was:
+`/c/Users/noahs/lecture1` which was unchanged by the command.
+
+![image](lr1-4.png)
+
+I got this output because `cat` is meant to print the contents of a file given by a path. Since the path I provided is that of a file (`README`), it prints out the contents of the file. 
+
+This output is not an error. `cat` worked exactly as the documentation states.
+
+
+
 
