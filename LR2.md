@@ -18,3 +18,9 @@ The code not pictured in the screenshot was not used as it did not pertain to th
 ## Using the Server
 
 Below is two instances of me using `/add-message` to add another chat to the server 
+
+The first is adding the message 
+
+![image](lr2-2.png)
+
+![image](lr2-3.png)
