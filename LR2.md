@@ -24,3 +24,19 @@ The first is adding the message
 ![image](lr2-2.png)
 
 ![image](lr2-3.png)
+
+
+For both instances of `add-message` , the method `handleRequest` is called. The argument in both cases is the `url` object of type `URI`.
+
+Before the first `add-message` is ran, the value of the `chat` field is `null` since the default value of a `String` is `null`.
+
+After the first request (`/add-message?s=Thisisatest&user=Noah`) , the value of the `chat` field changes so that the only value stored within it is the string `"Noah: Thisisatest"`
+
+After the second `add-message` is ran, the value of `chat` changes from `"Noah: Thisisatest"` to:
+`"Noah: Thisisatest"
+ "Noah: Woohoo"` because of the second iteration of handleRequest with the `add-message` argument of `/add-message?s=Woohoo&user=Noah`.
+
+
+ # SSH Keys
+
+ Running `ls` with the absolute path to my private SSH key for `ieng6` on my local terminal
