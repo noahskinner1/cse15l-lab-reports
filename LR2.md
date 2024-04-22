@@ -41,7 +41,7 @@ After the second `add-message` is ran, the value of `chat` changes from `"Noah: 
 
  Running `ls` with the absolute path to my private SSH key for `ieng6` on my local terminal
 
- ![image](Private.png)
+ ![image](PRIVATE.png)
 
 
  Running `ls` with the absolute path to my public SSH key for `ieng6` on the `ieng6` machine.
@@ -51,7 +51,7 @@ After the second `add-message` is ran, the value of `chat` changes from `"Noah: 
 
  Logging onto the `ieng6` account without being prompted for a password
 
-  ![image](login.png)
+  ![image](LOGIN.png)
 
 
 
