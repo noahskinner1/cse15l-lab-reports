@@ -40,3 +40,21 @@ After the second `add-message` is ran, the value of `chat` changes from `"Noah: 
  # SSH Keys
 
  Running `ls` with the absolute path to my private SSH key for `ieng6` on my local terminal
+
+ ![image](Private.png)
+
+
+ Running `ls` with the absolute path to my public SSH key for `ieng6` on the `ieng6` machine.
+
+ ![image](public.png)
+
+
+ Logging onto the `ieng6` account without being prompted for a password
+
+  ![image](login.png)
+
+
+
+  # What did I learn from weeks 2 / 3 that I didn't know beforehand.
+
+  Granted, I did not know a large majority of this courses content beforehand. One thing I learned that I really found interesting was the SSH keys and their uses. I almost view it as FaceId for iPhone in that I don't need to enter a password when I open my phone. Altough it still verifies my face, it feels very similar to having an SSH key because all I have to do is attempt to access the device to login.
