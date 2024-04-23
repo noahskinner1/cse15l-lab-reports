@@ -37,7 +37,7 @@ After the second `add-message` is ran, the value of `chat` changes from `"Noah: 
  "Noah: Woohoo"` because of the second iteration of handleRequest with the `add-message` argument of `/add-message?s=Woohoo&user=Noah`.
 
 
- # SSH Keys
+ ## SSH Keys
 
  Running `ls` with the absolute path to my private SSH key for `ieng6` on my local terminal
 
@@ -54,6 +54,6 @@ After the second `add-message` is ran, the value of `chat` changes from `"Noah: 
   ![image](LOGIN.png)
 
 
-# What did I learn from weeks 2 / 3 that I didn't know beforehand.
+## What did I learn from weeks 2 / 3 that I didn't know beforehand.
 
   Granted, I did not know a large majority of this courses content beforehand. One thing I learned that I really found interesting was the SSH keys and their uses. I almost view it as FaceId for iPhone in that I don't need to enter a password when I open my phone. Altough it still verifies my face, it feels very similar to having an SSH key because all I have to do is attempt to access the device to login.
