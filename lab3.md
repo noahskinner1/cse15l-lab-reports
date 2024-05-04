@@ -20,4 +20,23 @@ Here are the two tests. The testMergeFails fails and testMergePasses passes.
         List<String> expected = Arrays.asList("a", "b", "c", "d", "e");
         List<String> result = ListExamples.merge(list1, list2);
         assertEquals(expected, result);'
+
+Here is the output of the two tests. There is no output on the terminal due to the bug in the method. The failure inducing input causes one of the tests to have an infinite loop, meaning I manually have to stop the tests from running.
+
+![image](testResults.png).
+
+Here is the buggy version of the method:
+'while(index2 < list2.size()) {
+      result.add(list2.get(index2));
+      index1 += 1;
+    }'
+
+Here is the fixed version of the method:
+'while(index2 < list2.size()) {
+      result.add(list2.get(index2));
+      index2 += 1;
+    }'
+
+
+This fix addresses the issue because the value of index2 never gets incremented in the buggy version. This means that the while loop will run without stopping since the conditonal will never evaluate to true. Changing it to index2 means that the value will properly increment and the conditional can be met.
     
