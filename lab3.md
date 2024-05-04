@@ -143,3 +143,7 @@ Here is the second output:
 550:screening questionnaires in women. JAMA 1998;280:166-71.`
 
 Here, the `grep --line-number` command is printing all line numbers containing the phrase "questionnaires" in the file `Session2-PDF.txt`. This could be useful for someone trying to ensure that a document is following a certain formatting specification where a certain element must be in a certain place.
+
+All information regarding the `grep` commands came from the gnu website.
+
+`“Grep .” GNU Grep 3.11, www.gnu.org/software/grep/manual/grep.html. Accessed 4 May 2024. `
