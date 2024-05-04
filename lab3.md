@@ -5,22 +5,24 @@ For the report, I chose the 'ListExamples' class, which has two buggy methods. I
 new list with the first list being added entirely and then the second list being added entirely.
 
 Here are the two tests. The testMergeFails fails and testMergePasses passes.
-' @Test
+```
+@Test
     public void testMergeFails() {
         List<String> list1 = Arrays.asList("a", "c", "e");
         List<String> list2 = Arrays.asList("b", "d", "f", "g");  
         List<String> expected = Arrays.asList("a", "b", "c", "d", "e", "f", "g");
         List<String> result = ListExamples.merge(list1, list2);
-        assertEquals(expected, result);'
-
-  '@Test
+        assertEquals(expected, result);}
+```
+ ```
+ @Test
     public void testMergePasses() {
         List<String> list1 = Arrays.asList("a", "c", "e");
         List<String> list2 = Arrays.asList("b", "d"); 
         List<String> expected = Arrays.asList("a", "b", "c", "d", "e");
         List<String> result = ListExamples.merge(list1, list2);
-        assertEquals(expected, result);'
-
+        assertEquals(expected, result);}
+```
 Here is the output of the two tests. There is no output on the terminal due to the bug in the method. The failure inducing input causes one of the tests to have an infinite loop, meaning I manually have to stop the tests from running.
 
 ![image](testResults.png).
