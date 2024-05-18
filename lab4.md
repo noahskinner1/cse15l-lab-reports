@@ -13,7 +13,7 @@ which was my username `noskinner` followed by the remote computer `ieng6@ucsd.ed
 
 ## Step 5 - 
 
-![image](lr4-2)
+![image](lr4-2.png)
 The exact keys pressed for this step were:
 
 `git<space>clone<space>(<ctrl><v>)<enter>`
@@ -24,7 +24,7 @@ I then pressed `<enter>` to run this command and clone the repository into ieng6
 
 ## Step 6 - 
 
-![image](lr4-3)
+![image](lr4-3.png)
 
 The exact keys I pressed to get to this step were `cd<space>lab7<enter>` followed by `bash<space>test.sh<enter>`
 
@@ -34,9 +34,9 @@ The results of the tests showed that the `testMerge2` test failed.
 
 ## Step 7 -
 
-![image](lr4-5)
+![image](lr4-5.png)
 
-![image](lr4-4)
+![image](lr4-4.png)
 
 The exact keys pressed were:
 `vim<space>List<tab>.java<enter>` followed by `<escape>/index1<enter><n><n><n><n><n><n><n><n><n>` 
@@ -53,3 +53,24 @@ I then typed `r2`. The `r` is used to remove the character and the 2 is used to 
 `index1` to `index2`.
 
 I then pressed `<escape>` to ensure I was in normal mode and then typed `:wq` to save my changes and exit the vim editor.
+
+## Step 8 -
+
+![image](lr4-6.png)
+
+The exact keys I pressed were `bash<space>test.sh<enter>`.
+
+This was done to re-run the bash script that runs the tests for the `ListExamples.java` file.
+
+I used the `bash` command followed by a `<space>` to run the `test.sh` script, which ran the tests in `ListExamplesTests.java`.
+The results of the tests showed that both tests passed, meaning I fixed the error.
+
+## Step 9 - 
+
+![image](lr4-7.png)
+
+git space commit Li tab .java
+This space is space a space commit period
+escape , :wq, enter
+git space push enter
+
