@@ -69,8 +69,15 @@ The results of the tests showed that both tests passed, meaning I fixed the erro
 
 ![image](lr4-7.png)
 
-git space commit Li tab .java
-This space is space a space commit period
-escape , :wq, enter
-git space push enter
+The exact keys I pressed for this were `git<space>commit<space>Li<tab>.java<enter>` followed by `This<space>is<space>a<space>commit.<enter>` followed by `<escape>:wq<enter>` followed by `git<space>push<enter>`.
+
+I used the `git` and `commit` commands spaced out with a `<space>` along with the file I wanted to commit the changes I made (ListExamples.java). I accessed this file by typing "Li" and then hitting `<tab>` to autofill to ListExamples and then typed the .java suffix. I then hit `<enter>` to pass the command.
+
+This opened a vim editor to write my commit message. I pressed these keys (`This<space>is<space>a<space>commit.<enter>`) so that my commit message was "This is a commit.". 
+
+I then pressed `<escape>` to enter normal mode and then typed `:wq` to save my message and exit the editor. This commited the changes.
+
+I then typed `git` followed by a `<space>` and then `push` to push my changes to github.
+
+
 
