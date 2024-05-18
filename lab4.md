@@ -31,3 +31,19 @@ The exact keys I pressed to get to this step were `cd<space>lab7<enter>` followe
 I used the `cd` command followed by a `<space>` and the term `lab7` to change the working directory to `lab7`
 I then used the `bash` command followed by a `<space>` to run the `test.sh` script, which ran the tests in `ListExamplesTests.java`.
 The results of the tests showed that the `testMerge2` test failed.
+
+## Step 7 -
+
+![image](lr4-5)
+
+![image](lr4-4)
+
+The exact keys pressed were:
+`vim<space>List<tab>.java<enter>` followed by `<escape>/index1<enter><n><n><n><n><n><n><n><n><n>` 
+followed by `<l><l><l><l><l>r2>` followed by `<escape>:wq<enter>`
+
+I used the `vim` command followed by a `<space>` and then typed List and the `<tab>` to autocomplete to ListExamples, then I typed .java to make sure 
+it was the file I needed to alter and then hit `<enter>` to enter the vim editor.
+
+Once in the vim editor, I typed `<escape>` to ensure I was in normal mode and then used the command `/` followed by index1 to find the first instance of the term "index1"
+in `ListExamples.java`. I then pressed `n` nine times to find the instance of "index1" that I needed to change to fix the tests.
